@@ -1,0 +1,10 @@
+variables:
+  PROD_ACCOUNT: "1234567890"
+  PROD_STAGE_NAME: prod
+  PROD_REGION: us-east-1
+  STAGING_ACCOUNT: "0987654321"
+  STAGING_STAGE_NAME: staging
+  STAGING_REGION: us-east-1
+
+production:
+  - # Script to deploy on Lambda
